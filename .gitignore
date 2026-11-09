@@ -1,0 +1,11 @@
+build/
+*.o
+*.d
+*.a
+fire-*
+test_shm
+core
+core.*
+*.swp
+.vscode/
+.idea/

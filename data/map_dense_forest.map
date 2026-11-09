@@ -1,0 +1,36 @@
+# map_dense_forest — плотный лес, огонь идёт быстро
+# " трава, t дерево, w вода, _ ров
+
+size = 14 20
+
+terrain:
+w"""""""""""""""""""
+w""""tttt""""tttt"""
+w"""ttttt""""tttt"""
+wt""tttt""""ttttt"""
+wt""ttt""""""tttt"""
+w""ttttt""""ttttt"""
+w""tttt""""""ttttt""
+wt""ttt""""""tttt"""
+wt""ttt""""""tttt"""
+w""ttttt""""ttttt"""
+w""tttt""""""ttttt""
+wt""tttt""""ttttt"""
+wt""ttt""""""tttt"""
+w"""""""""""""""""""
+
+ignition:
+5 8
+7 12
+
+sensors:
+2 2
+2 16
+9 4
+9 14
+
+station_candidates:
+5 6
+5 12
+7 8
+7 14
