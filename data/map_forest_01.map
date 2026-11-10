@@ -1,0 +1,26 @@
+# map_forest_01 — тестовая карта
+# Обозначения: " трава, t дерево, w вода, _ ров
+
+size = 8 12
+
+terrain:
+"""_w"""""""
+"ttt_w"tttt"
+"t t"_w"  t"
+"""tt"_wtt""
+"""""""_w"""
+""tt"""t_w""
+"""""""""_w"
+""tt""""tt""
+
+ignition:
+2 4
+6 3
+
+sensors:
+3 3
+3 9
+5 2
+
+station_candidates:
+4 6
